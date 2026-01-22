@@ -1,0 +1,14 @@
+name "uim-geosql"
+description "Geographic/Spatial SQL support for UIM"
+authors "UIM Solutions"
+copyright "Copyright © 2026, UIM Solutions"
+license "MIT"
+
+targetType "library"
+targetPath "lib"
+
+dependency "uim-sql" path="../sql"
+
+configuration "library" {
+    targetType "library"
+}
