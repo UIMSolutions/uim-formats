@@ -1,0 +1,517 @@
+[
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/attributes/attribute.d",
+		"members": [
+			{
+				"line": 13,
+				"kind": "class",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"override"
+						],
+						"overrides": [
+							"object.Object.toString",
+							"uim.html.classes.attributes.interfaces.IHtmlAttribute.toString"
+						],
+						"line": 40,
+						"kind": "function",
+						"char": 21,
+						"name": "toString",
+						"deco": "FNfZAya",
+						"protection": "public",
+						"endchar": 5,
+						"endline": 45,
+						"comment": "Convert attribute to string representation\n"
+					},
+					{
+						"storageClass": [
+							"static"
+						],
+						"parameters": [
+							{
+								"deco": "Aya",
+								"name": "name"
+							},
+							{
+								"deco": "Aya",
+								"default": "null",
+								"name": "value"
+							}
+						],
+						"line": 48,
+						"kind": "function",
+						"char": 27,
+						"name": "create",
+						"deco": "FNfAyaQdZC3uim5html7classes10attributes10interfaces14IHtmlAttribute",
+						"protection": "public",
+						"endchar": 5,
+						"endline": 50,
+						"comment": "Create a new attribute\n"
+					}
+				],
+				"name": "DHtmlAttribute",
+				"interfaces": [
+					"uim.html.classes.attributes.interfaces.IHtmlAttribute"
+				],
+				"protection": "public",
+				"comment": "Represents an HTML attribute with name and value\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.attributes.attribute"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/attributes/interfaces.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.attributes.interfaces"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/a.d",
+		"members": [
+			{
+				"line": 14,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DA",
+				"protection": "public",
+				"comment": "HTML anchor (link) element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.a"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/address.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.address"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/article.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.article"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/aside.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.aside"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/br.d",
+		"members": [
+			{
+				"line": 14,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DBr",
+				"protection": "public",
+				"comment": "HTML line break element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.br"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/div.d",
+		"members": [
+			{
+				"line": 14,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DDiv",
+				"protection": "public",
+				"comment": "HTML div element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.div"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/footer.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.footer"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/h.d",
+		"members": [
+			{
+				"line": 13,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DH",
+				"protection": "public",
+				"comment": "HTML heading element (h1-h6)\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.h"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/header.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.header"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/hgroup.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.hgroup"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/hr.d",
+		"members": [
+			{
+				"line": 13,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DHr",
+				"protection": "public",
+				"comment": "HTML horizontal rule element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.hr"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/img.d",
+		"members": [
+			{
+				"line": 13,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DImg",
+				"protection": "public",
+				"comment": "HTML image element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.img"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/interfaces.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.interfaces"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/link.d",
+		"members": [
+			{
+				"line": 13,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DLink",
+				"protection": "public",
+				"comment": "HTML link element (for stylesheets, etc.)\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.link"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/main.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.main"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/p.d",
+		"members": [
+			{
+				"line": 13,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DP",
+				"protection": "public",
+				"comment": "HTML paragraph element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.p"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/package.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/elements/span.d",
+		"members": [
+			{
+				"line": 13,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DSpan",
+				"protection": "public",
+				"comment": "HTML span element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.elements.span"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/forms/button.d",
+		"members": [
+			{
+				"line": 14,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.forms.element.DHtmlFormElement",
+				"members": [],
+				"name": "DButton",
+				"protection": "public",
+				"comment": "HTML button element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.forms.button"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/forms/form.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DForm",
+				"interfaces": [
+					"uim.html.classes.forms.interfaces.IHtmlForm"
+				],
+				"protection": "public",
+				"comment": "HTML form element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.forms.form"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/forms/input.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.forms.element.DHtmlFormElement",
+				"members": [],
+				"name": "DInput",
+				"interfaces": [
+					"uim.html.classes.forms.interfaces.IInput"
+				],
+				"protection": "public",
+				"comment": "HTML input element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.forms.input"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/forms/interfaces.d",
+		"members": [
+			{
+				"line": 13,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 15,
+						"kind": "function",
+						"char": 18,
+						"name": "name",
+						"deco": "FNfZC3uim5html7classes10attributes10interfaces14IHtmlAttribute",
+						"protection": "public",
+						"comment": "Get or set the name attribute\n"
+					}
+				],
+				"name": "IHtmlForm",
+				"interfaces": [
+					"uim.html.classes.elements.interfaces.IHtmlElement"
+				],
+				"protection": "public",
+				"comment": "Interface for form elements with name attribute\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.forms.interfaces"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/forms/label.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.forms.element.DHtmlFormElement",
+				"members": [],
+				"name": "DLabel",
+				"protection": "public",
+				"comment": "HTML label element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.forms.label"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/forms/option.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.forms.element.DHtmlFormElement",
+				"members": [],
+				"name": "DSelectOption",
+				"protection": "public",
+				"comment": "HTML option element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.forms.option"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/forms/select.d",
+		"members": [
+			{
+				"line": 14,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.forms.element.DHtmlFormElement",
+				"members": [],
+				"name": "DSelect",
+				"protection": "public",
+				"comment": "HTML select element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.forms.select"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/lists/dd.d",
+		"members": [
+			{
+				"line": 14,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DDd",
+				"protection": "public",
+				"comment": "HTML definition description element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.lists.dd"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/lists/dt.d",
+		"members": [
+			{
+				"line": 13,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DDt",
+				"protection": "public",
+				"comment": "HTML definition term element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.lists.dt"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/lists/li.d",
+		"members": [
+			{
+				"line": 14,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DLi",
+				"protection": "public",
+				"comment": "HTML list item element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.lists.li"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/html/classes/lists/ol.d",
+		"members": [
+			{
+				"line": 13,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.html.classes.elements.element.DHtmlElement",
+				"members": [],
+				"name": "DOl",
+				"protection": "public",
+				"comment": "HTML ordered list element\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.html.classes.lists.ol"
+	}
+]
