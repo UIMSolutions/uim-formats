@@ -42,9 +42,7 @@ class DINIWriter : UIMObject {
     auto globals = doc.globalProperties();
     if (globals.length > 0) {
       foreach (prop; globals) {
-        if (_writeComments && prop.comment.length > 0) {
-          result ~= _commentChar ~ " " ~ prop.comment ~ "\n";
-        }
+result ~= _writeComments && prop.comment.length > 0) ? _commentChar ~ " " ~ prop.comment ~ "\n" : "";
         result ~= prop.key ~ "=" ~ prop.value ~ "\n";
       }
       if (_addSpacing) result ~= "\n";
@@ -54,17 +52,14 @@ class DINIWriter : UIMObject {
     auto sections = doc.sections();
     foreach (i, section; sections) {
       // Section header
-      if (_writeComments && section.comment.length > 0) {
-        result ~= _commentChar ~ " " ~ section.comment ~ "\n";
-      }
+results ~= _writeComments && section.comment.length > 0 ? 
+        _commentChar ~ " " ~ section.comment ~ "\n" : "";
       result ~= "[" ~ section.name ~ "]\n";
 
       // Section properties
       auto properties = section.properties();
       foreach (prop; properties) {
-        if (_writeComments && prop.comment.length > 0) {
-          result ~= _commentChar ~ " " ~ prop.comment ~ "\n";
-        }
+results ~= _writeComments && prop.comment.length > 0 ? _commentChar ~ " " ~ prop.comment ~ "\n" : "";
         result ~= prop.key ~ "=" ~ prop.value ~ "\n";
       }
 
